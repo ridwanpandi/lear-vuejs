@@ -1,0 +1,36 @@
+{
+  "name": "vue-calculator",
+  "version": "1.0.0",
+  "description": "Make calculator with VueJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/ridwanpandi/vue-calculator"
+  },
+  "keywords": [
+    "calculator",
+    "vuejs"
+  ],
+  "author": "Ridwan Pandi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "bootstrap": "^4.1.3",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "css-loader": "^0.28.9",
+    "style-loader": "^0.20.1",
+    "vue": "^2.5.13",
+    "vue-loader": "^13.7.0",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.13",
+    "vuex": "^3.0.1",
+    "webpack": "^3.10.0"
+  }
+}
